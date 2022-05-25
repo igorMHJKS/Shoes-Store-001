@@ -47,7 +47,7 @@
             <div id="container">
                 <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome" >
-            </div>
+            </div> 
 
             <div id="container">
                 <label for="email">Email</label>
@@ -57,65 +57,72 @@
             
             <div id="container">
                 <label for="telefone">Telefone</label>
-                <input tel="text" name="Telefone" id="telefone" required placeholder="(xx) xxxxx-xxxx">
+                <input tel="text" name="Telefone" id="telefone" required >
 
             </div>
 
-           <select name="Departamento">
-               <option value="Departamernto">Departamentos</option>
-           </select>
+            <div id="container">
+                <label for="Departamentos">Departamentos</label>
+                <select name="interest" id="interest">
+                    <option value="" >Selecione</option>
+                </select>
+            </div>
+            
+            <div id="container-input">
+               <label id="Disp" for="Disponibilidade">Disponibilidade</label>
+                <div id="container-checkbox">
+                <input type="checkbox"name="" id="">
+                <label >Integral (8h)</label>
+                </div>
+                <div id="container-checkbox2">
+                    <input id="ola" type="checkbox"name="" id="" >
+                <label >Meio período (4h)</label>
+                </div>
+                <div id="container-checkbox3">
+                    <input id="Fre" type="checkbox"name="" id="" >
+                <label >Freelancer</label>
+
+                </div>
+            </div>
+
         
-           <div id="container">
-               <label id="dis2">Disponibilidade</label>
-               <div id="checkbox1">
-                <input  id="vamo"type="checkbox" name="int" id="Int" value="Integral (8h)" required>
-                <label id="nom2" for="int">Integral (8h)</label>
-
-               </div>
-               <div id="checkbox2">
-                   <input id="meio2" type="checkbox" name="mei" id="mei" value="Meio período (4h)" required>
-                   <label id="meio" for="mei">Meio período (4h)</label>
-
-
-               </div>
-
-               <div id="checkbox3">
-                   <input id="FER2" type="checkbox" name="fer" id="fer" value="Freerlancer"required>
-                   <label id="fer" for="fer">Freelancer</label>
-
-                   
-
-               </div>
                <label id="Nome">Qual a melhor forma para entrarmos em contato com você?</label>
-               <div id="radio">
-                   <input id="Circulo1" type="radio" name="email" id="email" value="Email" required>
-                   <label id="email2" >Email</label>
+               <div class="container-input">
 
-               </div>
-               <div id="radio2">
-                   <input id="Circulo2" type="radio" name="Ligação" id="Ligação" value="Ligação" required> 
-                    <label id="Ligação">Ligação</label>
-
-               </div>
-
-               <div id="radio3">
-                   <input id="Circulo3" type="radio" name="WhatsApp" id="WhatsApp" value="WhatsApp" required>
-                   <label id="whatsapp">WhatsApp</label>
-               </div>
+                <div class="container-radio">
+                  <input id="basic" type="radio" name="plan" value="basic" />
+                  <label id="ba" for="basic">E-mail</label>
+                </div>
+                <div class="container-radio">
+                  <input id="premium" type="radio" name="plan" value="premium" />
+                  <label id="pre" for="premium">Ligação</label>
+                </div>
+                <div class="container-radio">
+                    <input id="Extra" type="radio" name="plan" value="premium" />
+                    <label id="ex" for="Extra">WhatsApp</label>
+                  </div>  
+              </div>
 
                <div id="mensagem">
                    <label id="Mensagem1">Mensagem</label>
                    <textarea id="Area" name="Mensagem" id="Mensagem" cols="30" rows="10"></textarea>
 
                </div>
+               <div>
+                   <label id="curr" for="Currículo">Currículo</label>
+                   <input id="avatar" type="file" name="avatar"accept=".jpg" multiple>
+                   <button id="bu" type="submit">Enviar</button>
+               </div>
+
+               
 
            </div>
           
-
-     
-
-           
     </main>
+
+    <footer>
+        
+    </footer>
 </body>
 </html>
 

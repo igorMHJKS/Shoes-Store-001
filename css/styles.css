@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto';
+    color: #777777;
+}
 .shoes{
     position: absolute;
     top: 10px;
@@ -30,7 +34,7 @@
     font-size: 24px;
 }
 h1{
-   position: absolute;
+    position: absolute;
    left: 100px;
    font-size: 39px;
    color: #575757;
@@ -40,13 +44,13 @@ p{
 }
 .caixa{
     position: absolute;
+    left: 700px;
     top: 250px;
-    left: 600px;
-    width: 464px;
+    width: 466px;
     height: 500px;
     margin:20px;
     border: 3px solid white;
-    font-size: 16px;
+    font-size: 16.5px;
     color: #575757;
     z-index: 10;
 }
@@ -64,161 +68,206 @@ form label{
     margin: 5px 0;
     color: #575757;
 }
-input{
-    width: 536.64px;
-   height: 30px;
+#container{
+    
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 538px;
     margin: 5px 0;
     color: #575757;
     cursor: pointer;
-    
-    
+    margin: 0 100px;
+
   }
-  select{
-    width: 536.64px;
-   height: 30px;
-      position: relative;
-      top: 30px;
-      color: #575757;
-      border: 1px solid #575757;
-      transition: border-radius 450ms;;
-      cursor: pointer;
-     
-      }
-#dis2{
-    position: absolute;
-    top: 270px;
-    left: 5px;
-    width: 132px;
-    height: 100px;
-    color: #575757;
+ #Disp{
+     display: flex;
+     flex-direction: column;
+     margin: 10px 100px;
+ }
+
+
+#container-checkbox{
+   display: flex;
 }
-    #nom2{
-        position: relative;
-        top: 60px;
-        left: 30px;
-        color: #777777;
-     
-    }
-    #vamo{
-        position: relative;
-    top:83px;
-    right: 20px;
-        color: #777777;
-        width: 66px;
-        height: 16px;
-        background-color: red;
+#container-checkbox label {
+    padding: 0 100px;
+    margin-bottom: 10px;
 
-     
-    }
-    #meio{
-        position: relative;
-        top: 16px;
-        left: 150px;
-        color: #777777;
-     
-    }
-    #meio2{
-        position: relative;
-        top: 39px;
-        left: 100px;
-        color:#777777;
-        width: 66px;
-        height: 16px;
-     
-     
-    }
-    #fer{
-        position: relative;
-        bottom:29px;
-        left:310px;
-        color: #777777 ;
+  }
 
-        
-    }
-    #FER2{
-        position: relative;
-    bottom: 6px;
-        left: 260px;
-        color: #777777;
-        width: 66px;
-        height: 16px;
-       
-     
 
-    }
-#Nome{
+input[type="checkbox"] {
+    width: 20px;
+    height: 16px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
     position: relative;
-    left:10px;
+    left:100px;
+    top: 6px;
+  
 }
-    #Circulo1{
-        position: relative;
-        width: 16px;
-        height: 16px;
-        top:19px;
-        right: 15px;
-        width: 66px;
-        height: 20px;
 
 
-    }
-
-    #email2{
-       position: relative;
-       bottom: 5px;
-     left: 35px;
-     color: #777777;
-     width: 66px;
+#container-checkbox2{
+    display: flex;
+ }
+ #container-checkbox2 label {
+     padding: 0 225px;
+     position: relative;
+     bottom: 33px;
+ 
+   }
+ 
+ 
+#ola {
+     width: 16px;
      height: 16px;
-    }
+     padding: 0;
+     margin: 0;
+     cursor: pointer;
+     position: absolute;
+     left: 205px;
+    top: 237px;
+   
+ }
 
-    #Circulo2{
-       position: relative;
-       width: 66px;
-       height: 20px;
-       left: 110px;
-       bottom: 25px;
-       
+ #container-checkbox3{
+    display: flex;
+ }
+ #container-checkbox3 label {
+     padding: 0 367px;
+     position: relative;
+     bottom: 61px;
+     color: #777777;
+ 
+   }
+ 
+  #Fre{
+     width: 16px;
+     height: 16px;
+     padding: 0;
+     margin: 0;
+     cursor: pointer;
+     position: absolute;
+     left: 345px;
+top:237px;
+   
+ }
 
-    }
-    #Ligação{
+ 
+    #Nome{
+        display: flex;
+        flex-direction: column;
+        margin: 0 100px;
         position: relative;
-        bottom:50px;
-        left: 160px;
-        color: #777777;
-        width: 66px;
-        height: 16px;
+    bottom:  50px;
+    font-size: 18px;
+    color: #777777;
 
     }
 
-    #Circulo3{
-        position: relative;
-        bottom: 70px;
-        left: 250px;
-        width: 66px;
+    #basic{
+        display: flex;
+        flex-direction:column ;
+        width: 20px;
         height: 20px;
-
-    }
-    #whatsapp{
         position: relative;
-        bottom: 95px;
-        left: 300px;
-        width: 66px;
-        height: 16px;
-        color: #777777;
+        bottom: 30px;
+       left: 100px;
     }
+
+    #ba{
+        display: flex;
+        flex-direction: column;
+       position: relative;
+       bottom:  55px;
+       left: 125px;
+    }
+
+    #premium{
+        display: flex;
+        flex-direction: column;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        bottom: 78.3px;
+        left: 205px;
+    }
+    #pre{
+        display: flex;
+        flex-direction: column;
+       position: relative;
+       bottom:  103px;
+       left:230px;
+    }
+
+    #Extra{
+        display: flex;
+        flex-direction: column;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        bottom: 127px;
+        left: 340px;
+    }
+    #ex{
+        display: flex;
+        flex-direction: column;
+       position: relative;
+       bottom:  151px;
+       left: 365px;
+       
+    }
+
     #Mensagem1{
+        display:flex ;
+        flex-direction: column;
         width: 121.96px;
         height: 21px;
         color: #777777;
         position: relative;
-        bottom: 70px;
+        bottom: 140px;
+        left: 100px;
 
     }
     #Area{
+        display: flex;
+        flex-direction: column;
         position: relative;
-        bottom: 70px;
+        bottom:120px;
+        left: 100px;
         width: 536.64px;
         height: 78px;
+        font-size: 18px;
+    }
+    #curr{
+        display: flex;
+        flex-direction:column;
+        font-size: 16px;
+        color: #777777;
+        position: relative;
+     bottom: 100px;
+     left: 100px;
+    }
+    #avatar{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 125px;
+        left: 180px;
+    }
+    #bu{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 90px;
+        left: 100px;
+         width: 537px;
+        height: 33px;
+        background-color: #C2185B;
+        color: white;
+        font-size: 20px;
+       align-items: center;
     }
