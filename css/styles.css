@@ -2,40 +2,62 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 }
 body{
     font-family: 'Roboto';
     color: #777777;
+    
 }
+main{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+  }    
+
 .shoes{
     position: absolute;
     top: 10px;
 }
 #Produtos{
-    position: absolute;
-    top:45px;
-    padding-left: 550px;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top: 44px;
+    padding-left: 710px;
     color: #777777;
     font-size: 24px;
+    width: 269vh;
+height: 34vw;
    
 }
 #COLE{
     position: absolute;
     top: 45px;
-    padding-left: 890px ;
+    padding-left: 1002px ;
     color: #777777;
     font-size: 24px;
+    width: 122vh;
+height: 33vw;
 }
 #Out{
     position: absolute;
     top: 45px;
-    padding-left: 1100px;
+    padding-left: 1150px;
     color: #777777;
     font-size: 24px;
+    width: 91vh;
+height: 33vw;
 }
 h1{
-    position: absolute;
-   left: 100px;
+    
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   left: 123px;
+   top: 177px;
    font-size: 39px;
    color: #575757;
 }
@@ -44,230 +66,328 @@ p{
 }
 .caixa{
     position: absolute;
-    left: 700px;
-    top: 250px;
-    width: 466px;
-    height: 500px;
+    left: 736px;
+    top: 268px;
+    width:63vh;
+    height: 1vw;
     margin:20px;
     border: 3px solid white;
     font-size: 16.5px;
     color: #575757;
-    z-index: 10;
 }
-form{
+
+
+.container label{
     display: flex;
     flex-direction: column;
-    position: relative;
-    top: 100px;
-    color: #575757;
+   position: absolute;
+   left: 123px;
+   top: 268px;
+   font-size:16px ;
+  
+   
 
 }
-form label{
+.container input{
     display: flex;
     flex-direction: column;
-    margin: 5px 0;
-    color: #575757;
+    position: absolute;
+    top: 294px;
+    left: 123px;
+    height: 3vh;
+    width: 30vw;
+   
 }
-#container{
-    
+
+.container2 label{
+    font-size: 16px;
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 538px;
-    margin: 5px 0;
-    color: #575757;
-    cursor: pointer;
-    margin: 0 100px;
+    position: absolute;
+    left: 123px;
+    top: 335px
+}
 
-  }
- #Disp{
+.container2 input{
+    height: 3vh;
+    width: 30vw;
+    position: absolute;
+    left: 123px;
+    top:359px;
+}
+
+.container3 label{
+    font-size: 16px;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   left: 123px;
+   top: 400px;
+}
+.container3 input{
      display: flex;
      flex-direction: column;
-     margin: 10px 100px;
- }
-
-
-#container-checkbox{
-   display: flex;
+     height: 3vh;
+     width: 30vw;
+     position: absolute;
+     top: 430px;
+     left: 123px;
 }
-#container-checkbox label {
-    padding: 0 100px;
-    margin-bottom: 10px;
 
-  }
+.Departamentos label{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+   left: 123px;
+   top: 465px;
+   font-size: 16px;
+}
+.Departamentos select {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left: 123px;
+    top: 489px;
+    height: 3vh;
+    width: 30vw;
+}
+label{
+    font-size: 16px;
+    position: absolute;
+    left: 123px;
+    top: 530px;
+}
+
+.label{
+display: flex;
+flex-direction: column;
+position: absolute;
+left: 141px;
+top: 563px;
+}
+.checkbox input{
+display: flex;
+flex-direction: column;
+position: absolute;
+left: 123px;
+top: 563px;
+
+}
 
 
-input[type="checkbox"] {
-    width: 20px;
-    height: 16px;
-    padding: 0;
-    margin: 0;
+.label2{
+display: flex;
+flex-direction: column;
+position: absolute;
+left: 252px;
+top: 563px;
+}
+.checkbox2 input {
+display: flex;
+flex-direction:column;
+position: absolute;
+top: 563px;
+left: 234px;
+
+}
+
+
+.checkbox3 label{
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    left: 393px;
+    top: 563px;
+
+}
+.checkbox3 input{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 375px;
+    top: 563px;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 594px;
+    left: 123px;
+}
+
+.radio1{
+    position: absolute;
+    left: 141px;
+    top: 627px;
+}
+
+.radio input{
+    position: absolute;
+    top: 627px;
+    left: 123px;
+    height:2.3vh;
+    width: 1vw;
+}
+
+
+.ligacao{
+    position: absolute;
+    left: 252px;
+    top: 627px;
+}
+
+.radio2 input{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 627px;
+    left: 234px;
+    height:2.3vh;
+    width: 1vw;
+}
+
+.whatsapp{
+    position: absolute;
+    left: 393px;
+    top: 627px;
+    
+}
+
+.radio3 input{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 375px;
+    top: 627px;
+    height:2.3vh;
+}
+.mensagem{
+    display: flex;
+    flex-direction:column ;
+    position: absolute;
+    width: 30vw;
+    left: 123px;
+    top: 681px;
+
+}
+.area label{
+    position: absolute;
+    left: 123px;
+    top: 658px;
+}
+
+.curriculo label{
+    position: absolute;
+    left: 125px;
+top: 781px;
+}
+
+.curriculo input{
+    position: absolute;
+    left: 251px;
+    top: 784px;
+
+}
+
+button{
+    background-color: #C2185B;
+    color: white;
+    border: solid 3px white ;
+    height: 5vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 123px;
+    top: 824px;
     cursor: pointer;
-    position: relative;
-    left:100px;
-    top: 6px;
-  
 }
+a:hover{
+    background-color: white;
+}
+#roxo{
+display: flex;
+flex-direction: column;
+position: absolute;
+top: 900px;
+right: 240px;
 
 
-#container-checkbox2{
-    display: flex;
- }
- #container-checkbox2 label {
-     padding: 0 225px;
-     position: relative;
-     bottom: 33px;
- 
-   }
- 
- 
-#ola {
-     width: 16px;
-     height: 16px;
-     padding: 0;
-     margin: 0;
-     cursor: pointer;
-     position: absolute;
-     left: 205px;
-    top: 237px;
-   
- }
+    }
 
- #container-checkbox3{
-    display: flex;
- }
- #container-checkbox3 label {
-     padding: 0 367px;
-     position: relative;
-     bottom: 61px;
-     color: #777777;
- 
-   }
- 
-  #Fre{
-     width: 16px;
-     height: 16px;
-     padding: 0;
-     margin: 0;
-     cursor: pointer;
-     position: absolute;
-     left: 345px;
-top:237px;
-   
- }
-
- 
-    #Nome{
+    #shoes{
         display: flex;
         flex-direction: column;
-        margin: 0 100px;
-        position: relative;
-    bottom:  50px;
-    font-size: 18px;
-    color: #777777;
-
+    position: absolute;
+    top: 930px;
+    left: 70px;
     }
-
-    #basic{
-        display: flex;
-        flex-direction:column ;
-        width: 20px;
-        height: 20px;
-        position: relative;
-        bottom: 30px;
-       left: 100px;
+    #foter{
+        border: solid 3px #C2185B; 
+        color: white;
+        font-size: 14px;
+        height:1vw;
+        width: 30vh;
+        position: absolute; 
+        top: 1025px;
+        left: 80px;
     }
-
-    #ba{
+    h3{
+        font-size:20px ;
+        color: white;
         display: flex;
         flex-direction: column;
-       position: relative;
-       bottom:  55px;
-       left: 125px;
+        position: absolute;
+       top: 960px;
     }
+    #categorias{
+        
+        display: flex;
+        flex-direction: column;
+        font-size:20px ;
+        position: absolute;
+       top: 990px;
+        color: white;
+        border: #C2185B;
+        width: 10vh;
+        height:0.5vw;
 
-    #premium{
-        display: flex;
-        flex-direction: column;
-        width: 20px;
-        height: 20px;
-        position: relative;
-        bottom: 78.3px;
-        left: 205px;
-    }
-    #pre{
-        display: flex;
-        flex-direction: column;
-       position: relative;
-       bottom:  103px;
-       left:230px;
-    }
-
-    #Extra{
-        display: flex;
-        flex-direction: column;
-        width: 20px;
-        height: 20px;
-        position: relative;
-        bottom: 127px;
-        left: 340px;
-    }
-    #ex{
-        display: flex;
-        flex-direction: column;
-       position: relative;
-       bottom:  151px;
-       left: 365px;
-       
-    }
-
-    #Mensagem1{
-        display:flex ;
-        flex-direction: column;
-        width: 121.96px;
-        height: 21px;
-        color: #777777;
-        position: relative;
-        bottom: 140px;
-        left: 100px;
 
     }
-    #Area{
+    #h33{
+        font: 29px;
         display: flex;
         flex-direction: column;
-        position: relative;
-        bottom:120px;
-        left: 100px;
-        width: 536.64px;
-        height: 78px;
-        font-size: 18px;
+        position: absolute;
+       top: 960px;
+       left: 970px;
+
     }
-    #curr{
+    #inti{
+        
         display: flex;
         flex-direction:column;
-        font-size: 16px;
-        color: #777777;
-        position: relative;
-     bottom: 100px;
-     left: 100px;
-    }
-    #avatar{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        bottom: 125px;
-        left: 180px;
-    }
-    #bu{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        bottom: 90px;
-        left: 100px;
-         width: 537px;
-        height: 33px;
-        background-color: #C2185B;
-        color: white;
         font-size: 20px;
-       align-items: center;
+        position: absolute;
+        color: white;
+        border:#C2185B ;
+       width: 200px;
+      top: 990px;
+        left: 970px;
+       
     }
+    @media(max-width:1301px){
+        div{
+          width: 100%;  
+        }
+    }
+@media(min-width:480px){
+    img{
+        width: 100;
+    }
+}
+
