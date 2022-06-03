@@ -7,64 +7,72 @@
 body{
     font-family: 'Roboto';
     color: #777777;
-    
-}
-main{
-    
     display: flex;
+    flex-direction:column ;
+    justify-content: center;
     align-items: center;
-    justify-content: center; 
-    
-  }    
+}
 
-.shoes{
-    position: absolute;
-    top: 10px;
-}
-#Produtos{
+header nav ul {
+    display: flex;
+   position:absolute;
+   left: 1002px;
+   top: 45px;
+  }
+  
+  header nav ul li {
+    list-style: none;
+    
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.4rem; 
+    padding: 2.4rem;
+    transition: all 250ms linear 0s;
+    
+    
+  }
+  
+  header nav ul li a:hover {
+    background: rgba(255,255,255, 0.15) ;
+
+  }
+.img{
    display: flex;
-   flex-direction: column;
-   position: absolute;
-   top: 44px;
-    padding-left: 710px;
-    color: #777777;
-    font-size: 24px;
-    width: 269vh;
-height: 34vw;
-   
+   justify-content: center;
+   padding: 30px;
 }
-#COLE{
-    position: absolute;
-    top: 45px;
-    padding-left: 1002px ;
-    color: #777777;
-    font-size: 24px;
-    width: 122vh;
-height: 33vw;
-}
-#Out{
-    position: absolute;
-    top: 45px;
-    padding-left: 1150px;
-    color: #777777;
-    font-size: 24px;
-    width: 91vh;
-height: 33vw;
-}
+  .branca{
+  
+    background: #FFFFFF;
+         box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+         width:220vh;
+         height: 122px;
+         
+          }
+    
+      .shoes{
+       display: flex;
+       position: absolute;
+       left: 19px;
+       top: 9px;;
+      
+    }
+
 h1{
     
    display: flex;
    flex-direction: column;
-   position: absolute;
-   left: 123px;
-   top: 177px;
+   justify-content: space-between;
+   padding-right:139vh;
+   margin-top: 3vw;
    font-size: 39px;
    color: #575757;
 }
-p{
-    border: solid 3px white;
-}
-.caixa{
+.pai{
     position: absolute;
     left: 736px;
     top: 268px;
@@ -75,7 +83,6 @@ p{
     font-size: 16.5px;
     color: #575757;
 }
-
 
 .container label{
     display: flex;
@@ -294,7 +301,8 @@ top: 781px;
 button{
     background-color: #C2185B;
     color: white;
-    border: solid 3px white ;
+    border-radius:  50px black ;
+    font-family: "Times New Roman";
     height: 5vh;
     width: 30vw;
     display: flex;
@@ -305,20 +313,27 @@ button{
     left: 123px;
     top: 824px;
     cursor: pointer;
+    transition-property: background-color color;
+    transition-duration: 0.5s;
+    color: 0.9s;
 }
-a:hover{
-    background-color: white;
+button:hover{
+    background-color:white ;
+   
+    color:#C2185B;  
 }
-#roxo{
-display: flex;
-flex-direction: column;
-position: absolute;
-top: 900px;
-right: 240px;
 
 
-    }
+.roxo{
+    background-color: #C2185B;
+    width: 1280px;
+height: 248px;
+   position: absolute;
+    top: 900px;
+    left: 0px;
+}
 
+    
     #shoes{
         display: flex;
         flex-direction: column;
@@ -329,29 +344,45 @@ right: 240px;
     #foter{
         border: solid 3px #C2185B; 
         color: white;
-        font-size: 14px;
+        font-size: 20px;
         height:1vw;
         width: 30vh;
         position: absolute; 
         top: 1025px;
         left: 80px;
     }
-    h3{
-        font-size:20px ;
+    .h3{
+        font-size:21px ;
         color: white;
         display: flex;
         flex-direction: column;
         position: absolute;
-       top: 960px;
+        left:646px;
+        top: 970px;
     }
-    #categorias{
+   
+
+    .estilo{
+        font-weight: 800;
+        font-size:60px ;
+        line-height: 82px;
+        font-family: 'Open Sans';
+        text-align: right;
+       display: flex;
+       width: 100%;
+       padding-left: 100vh;
+       margin-right: 30vw;
+      }
+
+      #categorias{
         
         display: flex;
         flex-direction: column;
         font-size:20px ;
         position: absolute;
-       top: 990px;
-        color: white;
+        left: 646px;
+        top: 1000px;
+        color:white;
         border: #C2185B;
         width: 10vh;
         height:0.5vw;
@@ -359,12 +390,13 @@ right: 240px;
 
     }
     #h33{
-        font: 29px;
+        font: 20px;
         display: flex;
         flex-direction: column;
         position: absolute;
-       top: 960px;
-       left: 970px;
+        color: white;
+        top:970px;
+       left:900px;
 
     }
     #inti{
@@ -376,18 +408,219 @@ right: 240px;
         color: white;
         border:#C2185B ;
        width: 200px;
-      top: 990px;
-        left: 970px;
+      top: 1000px;
+        left: 900px;
        
     }
-    @media(max-width:1301px){
-        div{
-          width: 100%;  
-        }
+      .ig{
+         position: absolute;
+         left: 0px;
+         top: 122px;
+      }
+      .img1{
+        width: 400px;
+        height: 600px;
+          position: absolute;
+          left: 450px;
+          top: 668px;
+          
+      }
+
+      .img2{
+        position: absolute;
+        left: 890px;
+        top: 589px;
+      }
+
+      .i{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 44px;
+        line-height: 60px;
+        position: absolute;
+        left: 750px;
+        top: 70px;
+       
+      }
+    .i30{
+       border: white;
+       background-color: #C2185B;
+       width: 1650px;
+       height: 672px;
+       position: absolute;
+       left:100px;
+       top: 1554px;
     }
-@media(min-width:480px){
-    img{
-        width: 100;
+    .img3{
+position: absolute;
+left: 350px;
+top: 1729px;
+border:#C2185B solid 0px;
+height: 400px;
+background-color: white;
     }
+    .valor{
+        position: absolute;
+        left: 355px;
+        top: 2047px;
+        height: 5vh;
+        width: 270px;
+    }
+    .img4{
+
+        position: absolute;
+        left: 635px;
+        top: 1729px;
+        border: #C2185B solid 0px;
+        background-color: white;
+        height: 400px;
+    }
+    .valor1{
+        position: absolute;
+        left: 645px;
+        top: 2047px;
+        height: 5vh;
+        width: 270px;
+    }
+    .img5{
+         position: absolute;
+         left: 920px;
+         top: 1729px;
+         border: #C2185B solid 0px;
+         background-color: white;
+         height: 400px;
+         
+    }
+    .valor2{
+        position: absolute;
+        left: 930px;
+        top: 2047px;
+        height: 5vh;
+        width: 270px;
+    }
+    .img6{
+       position: absolute;
+       left: 1200px;
+       top: 1729px;
+       border: #C2185B solid 0px;
+       background-color: white;
+       height: 400px;
+
+    }
+    .valor3{
+        position: absolute;
+        left: 1210px;
+        top: 2047px;
+        height: 5vh;
+        width: 200px;
+    }
+
+    .detalhes{
+        border: white solid 0px;
+        background-color: #C2185B;
+        width: 403px;
+        height: 99px;
+        position: absolute;
+        left: 390px;
+        top: 2510px;
+    }
+.h2{
+    color: black;
+    position: absolute;
+    bottom: 140px;
+    width: 600px;
+    font-size: 39px;
+}
+h4{
+    color: white;
+    font-size: 39px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:26px;
+    
+}
+.goma{
+    position: absolute;
+    left: 400px;
+    top: 2655px;
+}
+.goma1{
+    position: absolute;
+    left: 950px;
+    top: 2379px;
+}
+.roxo2{
+    background-color: #C2185B;
+    width: 100vw;
+    height: 35vh;
+   position: absolute;
+   left: 0px;
+   top: 3434px;
 }
 
+#shoes3{
+    display: flex;
+    flex-direction: column;
+position: absolute;
+left: 30px;
+top: 3500px;
+}
+#foter4{
+    border: solid 3px #C2185B; 
+    color: white;
+    font-size: 20px;
+    height:1vw;
+    width: 30vh;
+    position: absolute; 
+    left: 40px;
+    top: 3600px;
+}
+h3{
+    font-size:25px ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:1000px;
+    top: 3530px;
+    
+}
+#categorias5{
+    
+    display: flex;
+    flex-direction: column;
+    font-size:25px ;
+    position: absolute;
+    left: 1000px;
+    top: 3575px;    
+    color:white;
+    border: #C2185B;
+    width: 10vh;
+    height:0.5vw;
+
+
+}
+#h336{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1200px;
+    top: 3530px;
+}
+#inti7{
+    
+    display: flex;
+    flex-direction:column;
+    font-size: 25px;
+    position: absolute;
+    color: white;
+    border:#C2185B ;
+   width: 200px;
+   left: 1200px;
+   top: 3575px;
+   
+}
